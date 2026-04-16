@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Convite de Casamento - Anderson & Vanessa
 
-# Run and deploy your AI Studio app
+Este projeto foi configurado para ser publicado automaticamente no **GitHub Pages** usando **GitHub Actions**.
 
-This contains everything you need to run your app locally.
+## 🚀 Como fazer o site funcionar (IMPORTANTE)
 
-View your app in AI Studio: https://ai.studio/apps/33ce51b2-6b07-48b8-823a-931140c841fd
+Para que o site apareça no seu link `https://seu-usuario.github.io/seu-repositorio/`, você precisa ativar uma configuração no GitHub:
 
-## Run Locally
+1. Acesse o seu repositório no GitHub.
+2. Clique na aba superior **Settings** (Configurações).
+3. No lado esquerdo, clique em **Pages**.
+4. Procure a seção **Build and deployment**.
+5. No campo **Source**, mude de "Deploy from a branch" para **GitHub Actions**.
 
-**Prerequisites:**  Node.js
+Uma vez feito isso, o site será publicado automaticamente em alguns minutos.
 
+## 🛠️ Tecnologias utilizadas
+- React 19
+- Vite
+- Tailwind CSS 4
+- Lucide React (Ícones)
+- Framer Motion (Animações)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📋 Funcionalidades
+- Galeria de fotos com efeito de zoom
+- Convite estilizado para o Karaokê
+- Lista de presentes com sugestões e chave PIX
+- Design responsivo para celular
